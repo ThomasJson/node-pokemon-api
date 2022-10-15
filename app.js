@@ -1,10 +1,12 @@
 // http://localhost:3000/api/pokemons
 // http://localhost:3000/api/pokemons?limit=10
 
-// Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2NTU3NjI3NiwiZXhwIjoxNjY1NjYyNjc2fQ.QjHuRphjBIC6drHLCBF3rzLpkkNsc1w5o1c6OWHdvfQ
+// Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2NTczMDQ2NywiZXhwIjoxNjY1ODE2ODY3fQ.7CgLNeoXRS9JH7xyNfMTC6p9VwD95nhB0oWMGTSYIJs
 
 // Fonction de app.js : Démarrer un serveur express
+// Express : ???
 const express = require("express");
+// Sequelize : ORM
 const sequelize = require("./src/db/sequelize");
 
 // IMPORT Middlewares
